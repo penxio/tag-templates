@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "name": "account",
+    "color": "",
+    "description": ""
+  },
+  "columns": [
+    {
+      "displayName": "Name",
+      "fieldName": "name",
+      "description": "",
+      "fieldType": "TEXT"
+    },
+    {
+      "displayName": "Account",
+      "fieldName": "account",
+      "description": "",
+      "fieldType": "TEXT"
+    },
+    {
+      "displayName": "Password",
+      "fieldName": "password",
+      "description": "",
+      "fieldType": "PASSWORD"
+    },
+    {
+      "displayName": "Tags",
+      "fieldName": "tags",
+      "description": "",
+      "fieldType": "MULTIPLE_SELECT"
+    },
+    {
+      "displayName": "Note",
+      "fieldName": "note",
+      "description": "",
+      "fieldType": "TEXT"
+    }
+  ],
+  "rows": [
+    {
+      "name": "Google account",
+      "account": "foo@gmail.com",
+      "password": "123456",
+      "note": "My personal Google account",
+      "tags": [
+        "google"
+      ]
+    }
+  ]
+}
