@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "name": "bookmark",
+    "name": "movie",
     "color": "",
     "description": ""
   },
@@ -12,63 +12,100 @@
       "fieldType": "TEXT"
     },
     {
-      "displayName": "Title",
-      "fieldName": "title",
+      "displayName": "Cover",
+      "fieldName": "cover",
+      "description": "",
+      "fieldType": "IMAGE"
+    },
+    {
+      "displayName": "Year",
+      "fieldName": "year",
       "description": "",
       "fieldType": "TEXT"
     },
     {
-      "displayName": "Note",
-      "fieldName": "note",
+      "displayName": "Rate",
+      "fieldName": "rate",
       "description": "",
       "fieldType": "TEXT"
     },
     {
-      "displayName": "Tags",
-      "fieldName": "tags",
-      "description": "",
-      "fieldType": "MULTIPLE_SELECT"
-    },
-    {
-      "displayName": "URL",
-      "fieldName": "url",
+      "displayName": "Mins",
+      "fieldName": "mins",
       "description": "",
       "fieldType": "TEXT"
     }
   ],
   "rows": [
     {
-      "name": "X",
-      "title": "X. It’s what’s happening",
-      "note": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
-      "tags": [
-        "social media",
-        "entertainment",
-        "sports"
-      ],
-      "url": "https://twitter.com"
+      "name": "he Shawshank Redemption",
+      "cover": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX140_CR0,1,140,207_.jpg",
+      "year": "1994",
+      "rate": "4.7",
+      "mins": "2h 22m"
     },
     {
-      "name": "Notion",
-      "title": "Your connected workspace for wiki, docs & projects | Notion",
-      "note": "A new tool that blends your everyday work apps into one. It's the all-in-one workspace for you and your team.",
-      "tags": [
-        "note-taking",
-        "wiki",
-        "docs"
-      ],
-      "url": "https://www.notion.so"
+      "name": "The Godfather",
+      "cover": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_QL75_UY207_CR3,0,140,207_.jpg",
+      "year": "1972",
+      "rate": "4.6",
+      "mins": "2h 55m"
     },
     {
-      "name": "Ether",
-      "title": "Home | ethereum.org",
-      "note": "Ethereum is a global, decentralized platform for money and new kinds of applications. On Ethereum, you can write code that controls money, and build applications accessible anywhere in the world.",
-      "tags": [
-        "blockchain",
-        "decentralized",
-        "web3"
-      ],
-      "url": "https://ethereum.org"
+      "name": "The Dark Knight",
+      "cover": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_QL75_UX140_CR0,0,140,207_.jpg",
+      "year": "2008",
+      "rate": "4.5",
+      "mins": "2h 32m"
+    },
+    {
+      "name": "The Godfather Part II",
+      "cover": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_QL75_UY207_CR3,0,140,207_.jpg",
+      "year": "1974",
+      "rate": "4.5",
+      "mins": "3h 22m"
+    },
+    {
+      "name": "12 Angry Men",
+      "cover": "https://m.media-amazon.com/images/M/MV5BMWU4N2FjNzYtNTVkNC00NzQ0LTg0MjAtYTJlMjFhNGUxZDFmXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_QL75_UX140_CR0,4,140,207_.jpg",
+      "year": "1957",
+      "rate": "4.5",
+      "mins": "1h 36m"
+    },
+    {
+      "name": "Schindler's List",
+      "cover": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_QL75_UX140_CR0,1,140,207_.jpg",
+      "year": "1993",
+      "rate": "4.5",
+      "mins": "3h 15m"
+    },
+    {
+      "name": "The Lord of the Rings: The Return of the King",
+      "cover": "https://m.media-amazon.com/images/M/MV5BZDVlNDE0YTAtMzc3NS00ZDUyLWJkMWEtMjE3YjNiOWQ4ZjEyXkEyXkFqcGdeQXVyNTk4MTA5OTg@._V1_QL75_UY207_CR4,0,140,207_.jpg",
+      "year": "2003",
+      "rate": "4.5",
+      "mins": "3h 21m"
+    },
+    {
+      "name": "Pulp Fiction",
+      "cover": "https://m.media-amazon.com/images/M/MV5BNTViY2YzMTYtNzQ1YS00MzkyLTg1OGEtNTc4NDdiOWZlNmYzXkEyXkFqcGdeQXVyNTk4MTA5OTg@._V1_QL75_UX140_CR0,1,140,207_.jpg",
+      "year": "1994",
+      "rate": "4.4",
+      "mins": "2h 34m"
+    },
+    {
+      "name": "The Lord of the Rings: The Fellowship of the Ring",
+      "cover": "https://m.media-amazon.com/images/M/MV5BNjI5MTIwNjgtYmFkOC00ZGYzLTg2NzctMWQxZmE4NDliOTk4XkEyXkFqcGdeQXVyNTk4MTA5OTg@._V1_QL75_UY207_CR4,0,140,207_.jpg",
+      "year": "2001",
+      "rate": "4.4",
+      "mins": "2h 58m"
+    },
+    {
+      "name": "Il buono, il brutto, il cattivo",
+      "cover": "https://m.media-amazon.com/images/M/MV5BNjJlYmNkZGItM2NhYy00MjlmLTk5NmQtNjg1NmM2ODU4OTMwXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_QL75_UX140_CR0,1,140,207_.jpg",
+      "year": "1966",
+      "rate": "4.4",
+      "mins": "2h 58m"
     }
   ]
 }
