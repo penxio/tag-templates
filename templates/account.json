@@ -30,21 +30,75 @@
       "fieldType": "MULTIPLE_SELECT"
     },
     {
-      "displayName": "Note",
-      "fieldName": "note",
+      "displayName": "URL",
+      "fieldName": "url",
       "description": "",
       "fieldType": "TEXT"
     }
   ],
   "rows": [
     {
-      "name": "Google account",
-      "account": "foo@gmail.com",
+      "name": "Google",
+      "account": "johnsmith1234@gmail.com",
       "password": "123456",
-      "note": "My personal Google account",
       "tags": [
-        "google"
-      ]
+        "email"
+      ],
+      "url": "https://mail.google.com"
+    },
+    {
+      "name": "Outlook",
+      "account": "emilyjones5678@outlook.com",
+      "password": "123456",
+      "tags": [
+        "email"
+      ],
+      "url": "https://outlook.live.com"
+    },
+    {
+      "name": "Notion",
+      "account": "davidwilson9012@gmail.com",
+      "password": "123456",
+      "tags": [
+        "note-taking"
+      ],
+      "url": "https://www.notion.so"
+    },
+    {
+      "name": "Figma",
+      "account": "sarahbrown3456@gmail.com",
+      "password": "123456",
+      "tags": [
+        "design"
+      ],
+      "url": "https://figma.com"
+    },
+    {
+      "name": "Obsidian",
+      "account": "michaelthomas7890@gmail.com",
+      "password": "123456",
+      "tags": [
+        "note-taking"
+      ],
+      "url": "https://obsidian.md"
+    },
+    {
+      "name": "Reflect.app",
+      "account": "jessicamiller2345@gmail.com",
+      "password": "123456",
+      "tags": [
+        "note-taking"
+      ],
+      "url": "https://reflect.app"
+    },
+    {
+      "name": "Coda",
+      "account": "benjaminharris4567@gmail.com",
+      "password": "123456",
+      "tags": [
+        "all-in-one"
+      ],
+      "url": "https://coda.io"
     }
   ]
 }
