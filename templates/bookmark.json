@@ -27,13 +27,13 @@
       "displayName": "Tags",
       "fieldName": "tags",
       "description": "",
-      "fieldType": "TEXT"
+      "fieldType": "MULTIPLE_SELECT"
     },
     {
       "displayName": "URL",
       "fieldName": "url",
       "description": "",
-      "fieldType": "MULTIPLE_SELECT"
+      "fieldType": "TEXT"
     }
   ],
   "rows": [
